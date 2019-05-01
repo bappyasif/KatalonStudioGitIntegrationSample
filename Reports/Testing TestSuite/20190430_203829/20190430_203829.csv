@@ -1,0 +1,11 @@
+Suite/Test/Step Name,Browser,Description,Start time,End time,Duration,Status
+Testing TestSuite,,How to create and run Test Suite\n----------------------------------------------------\nToday we will learn:\n\nWhat is TestSuite\nCreate & Run TestSuite\n________________________\n\nWhat is Test Suite...\n\nTest Suite is a collection of Test Cases\nLogical collection of Test Cases\nTest Cases are grouped into categories\n_______________________________________\n\nGoto \nTestSuite - Execution Information\n\nSet timeout\nSet retry count\nAdd mail recipients\nView last run report\n\nCreate folders to categorise your test cases .,2019-04-30 20:39:16,2019-04-30 20:39:24,8.384s,FAILED
+,,,,,,
+Test Cases/Maanual Recording,,Manual web recording testing,2019-04-30 20:39:16,2019-04-30 20:39:20,4.080s,FAILED
+"openBrowser(""https://opensource-demo.orangehrmlive.com/"")",,,2019-04-30 20:39:17,2019-04-30 20:39:20,3.602s,FAILED
+,,,,,,
+Test Cases/ManualMode,,,2019-04-30 20:39:20,2019-04-30 20:39:22,1.593s,FAILED
+"openBrowser(""https://opensource-demo.orangehrmlive.com/"")",,,2019-04-30 20:39:20,2019-04-30 20:39:22,1.356s,FAILED
+,,,,,,
+Test Cases/ScrpitingMode,,Performing a Test where we will be using Scripting as a means of Test case.,2019-04-30 20:39:22,2019-04-30 20:39:24,1.785s,FAILED
+"openBrowser(""https://goldgrizzly.com/"")",,,2019-04-30 20:39:22,2019-04-30 20:39:24,1.569s,FAILED

@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="New Test" time="15" tests="1" failures="0" errors="0">
+   <testsuite name="New Test" tests="1" failures="0" errors="0" time="15" timestamp="2019-04-28 20:47:17" hostname="BappY - Toruk-Macto" id="Test Suites/Another Suite/New Test">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="C:\\Users\\BappY\\Katalon Studio\\TestFolder\\TestInManualMmode\\Reports\\Another Suite\\New Test\\20190428_204708"/>
+         <property name="logFiles" value="C:\\Users\\BappY\\Katalon Studio\\TestFolder\\TestInManualMmode\\Reports\\Another Suite\\New Test\\20190428_204708\\execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="BappY - Toruk-Macto"/>
+         <property name="os" value="Windows 10 64bit"/>
+         <property name="katalonVersion" value="6.0.4.7"/>
+         <property name="browser" value="Chrome 73.0.3683.103"/>
+         <property name="hostAddress" value="10.244.50.2"/>
+         <property name="sessionId" value="c8ceabb63c85b7ac2520d7532f0579cf"/>
+         <property name="seleniumVersion" value="3.7.1"/>
+         <property name="proxyInformation" value="ProxyInformation{proxyOption=NO_PROXY, proxyServerType=HTTP, password=, proxyServerAddress=, proxyServerPort=0}"/>
+         <property name="platform" value="Windows 10"/>
+      </properties>
+      <testcase name="Test Cases/ManualMode" classname="Test Cases/ManualMode" status="PASSED">
+         <system-out><![CDATA[2019-04-28 20:47:18 - [TEST_CASE][PASSED] - Test Cases/ManualMode: Test Cases/ManualMode
+
+2019-04-28 20:47:19 - [TEST_STEP][PASSED] - openBrowser("https://opensource-demo.orangehrmlive.com/"): Browser is opened with url: 'https://opensource-demo.orangehrmlive.com/'
+
+2019-04-28 20:47:19 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2019-04-28 20:47:19 - [MESSAGE][INFO] - Action delay is set to 0 seconds
+
+2019-04-28 20:47:28 - [MESSAGE][PASSED] - Browser is opened with url: 'https://opensource-demo.orangehrmlive.com/'
+
+2019-04-28 20:47:28 - [TEST_STEP][PASSED] - setText(findTestObject("ObRepTestCreation/Page_OrangeHRM/input_LOGIN Panel_txtUsername"), "Admin"): Text 'Admin' is set on object 'Object Repository/ObRepTestCreation/Page_OrangeHRM/input_LOGIN Panel_txtUsername'
+
+2019-04-28 20:47:28 - [MESSAGE][PASSED] - Text 'Admin' is set on object 'Object Repository/ObRepTestCreation/Page_OrangeHRM/input_LOGIN Panel_txtUsername'
+
+2019-04-28 20:47:28 - [TEST_STEP][PASSED] - setText(findTestObject("ObRepTestCreation/Page_OrangeHRM/input_Username_txtPassword"), "admin123"): Text 'admin123' is set on object 'Object Repository/ObRepTestCreation/Page_OrangeHRM/input_Username_txtPassword'
+
+2019-04-28 20:47:28 - [MESSAGE][PASSED] - Text 'admin123' is set on object 'Object Repository/ObRepTestCreation/Page_OrangeHRM/input_Username_txtPassword'
+
+2019-04-28 20:47:28 - [TEST_STEP][PASSED] - click(findTestObject("ObRepTestCreation/Page_OrangeHRM/input_Password_Submit")): Object: 'Object Repository/ObRepTestCreation/Page_OrangeHRM/input_Password_Submit' is clicked on
+
+2019-04-28 20:47:30 - [MESSAGE][PASSED] - Object: 'Object Repository/ObRepTestCreation/Page_OrangeHRM/input_Password_Submit' is clicked on
+
+2019-04-28 20:47:30 - [TEST_STEP][PASSED] - verifyTextPresent("Welcome Admin", false): Text 'Welcome Admin' is present on page 
+
+2019-04-28 20:47:30 - [MESSAGE][PASSED] - Text 'Welcome Admin' is present on page 
+
+2019-04-28 20:47:30 - [TEST_STEP][PASSED] - click(findTestObject("ObRepTestCreation/Page_OrangeHRM/img")): Object: 'Object Repository/ObRepTestCreation/Page_OrangeHRM/img' is clicked on
+
+2019-04-28 20:47:32 - [MESSAGE][PASSED] - Object: 'Object Repository/ObRepTestCreation/Page_OrangeHRM/img' is clicked on
+
+2019-04-28 20:47:32 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+2019-04-28 20:47:33 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2019-04-28 20:47:17 - [TEST_SUITE][PASSED] - New Test: Test Cases/ManualMode]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>

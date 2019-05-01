@@ -1,0 +1,5 @@
+Suite/Test/Step Name,Browser,Description,Start time,End time,Duration,Status
+New Test,,,2019-04-03 20:25:48,2019-04-03 20:25:57,9.396s,FAILED
+,,,,,,
+Test Cases/ManualMode,,,2019-04-03 20:25:48,2019-04-03 20:25:57,8.431s,FAILED
+"openBrowser(""https://opensource-demo.orangehrmlive.com/"")",,,2019-04-03 20:25:49,2019-04-03 20:25:57,7.941s,FAILED

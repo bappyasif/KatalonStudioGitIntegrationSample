@@ -1,0 +1,30 @@
+Suite/Test/Step Name,Browser,Description,Start time,End time,Duration,Status
+Testing TestSuite,Chrome 73.0.3683.103,,2019-04-29 21:14:30,2019-04-29 21:15:06,35.573s,PASSED
+,,,,,,
+Test Cases/Maanual Recording,Chrome 73.0.3683.103,Manual web recording testing,2019-04-29 21:14:30,2019-04-29 21:14:45,14.245s,PASSED
+"openBrowser(""https://opensource-demo.orangehrmlive.com/"")",Chrome 73.0.3683.103,,2019-04-29 21:14:31,2019-04-29 21:14:38,7.639s,PASSED
+"setText(findTestObject(""Test_Manual/Page_OrangeHRM/input_LOGIN Panel_txtUsername""), ""Admin"")",Chrome 73.0.3683.103,,2019-04-29 21:14:38,2019-04-29 21:14:39,0.205s,PASSED
+"setText(findTestObject(""Test_Manual/Page_OrangeHRM/input_Username_txtPassword""), ""admin123"")",Chrome 73.0.3683.103,,2019-04-29 21:14:39,2019-04-29 21:14:39,0.140s,PASSED
+"click(findTestObject(""Test_Manual/Page_OrangeHRM/input_Password_Submit""))",Chrome 73.0.3683.103,,2019-04-29 21:14:39,2019-04-29 21:14:41,1.949s,PASSED
+"verifyTextPresent(""Welcome Admin"", false)",Chrome 73.0.3683.103,,2019-04-29 21:14:41,2019-04-29 21:14:41,0.164s,PASSED
+"verifyTextPresent(""Dashboard"", false)",Chrome 73.0.3683.103,,2019-04-29 21:14:41,2019-04-29 21:14:41,0.118s,PASSED
+"click(findTestObject(""Test_Manual/Page_OrangeHRM/Manual Testing Time Sheet/Page_OrangeHRM/img""))",Chrome 73.0.3683.103,,2019-04-29 21:14:41,2019-04-29 21:14:44,2.817s,PASSED
+"verifyTextPresent(""Timesheet"", false, STOP_ON_FAILURE)",Chrome 73.0.3683.103,,2019-04-29 21:14:44,2019-04-29 21:14:44,0.137s,PASSED
+closeBrowser(),Chrome 73.0.3683.103,,2019-04-29 21:14:44,2019-04-29 21:14:45,0.635s,PASSED
+,,,,,,
+Test Cases/ManualMode,Chrome 73.0.3683.103,,2019-04-29 21:14:45,2019-04-29 21:14:55,10.040s,PASSED
+"openBrowser(""https://opensource-demo.orangehrmlive.com/"")",Chrome 73.0.3683.103,,2019-04-29 21:14:45,2019-04-29 21:14:50,5.679s,PASSED
+"setText(findTestObject(""ObRepTestCreation/Page_OrangeHRM/input_LOGIN Panel_txtUsername""), ""Admin"")",Chrome 73.0.3683.103,,2019-04-29 21:14:50,2019-04-29 21:14:51,0.157s,PASSED
+"setText(findTestObject(""ObRepTestCreation/Page_OrangeHRM/input_Username_txtPassword""), ""admin123"")",Chrome 73.0.3683.103,,2019-04-29 21:14:51,2019-04-29 21:14:51,0.123s,PASSED
+"click(findTestObject(""ObRepTestCreation/Page_OrangeHRM/input_Password_Submit""))",Chrome 73.0.3683.103,,2019-04-29 21:14:51,2019-04-29 21:14:53,1.842s,PASSED
+"verifyTextPresent(""Welcome Admin"", false)",Chrome 73.0.3683.103,,2019-04-29 21:14:53,2019-04-29 21:14:53,0.142s,PASSED
+"click(findTestObject(""ObRepTestCreation/Page_OrangeHRM/img""))",Chrome 73.0.3683.103,,2019-04-29 21:14:53,2019-04-29 21:14:54,1.215s,PASSED
+closeBrowser(),Chrome 73.0.3683.103,,2019-04-29 21:14:54,2019-04-29 21:14:55,0.626s,PASSED
+,,,,,,
+Test Cases/ScrpitingMode,Chrome 73.0.3683.103,Performing a Test where we will be using Scripting as a means of Test case.,2019-04-29 21:14:55,2019-04-29 21:15:06,10.972s,PASSED
+"openBrowser(""https://goldgrizzly.com/"")",Chrome 73.0.3683.103,,2019-04-29 21:14:55,2019-04-29 21:15:02,7.319s,PASSED
+"click(findTestObject(""Object Repository/Test_Scripting/Some_More_Captured_Objects/Page_Gold Grizzly/h2_A Rapidly Growing Online Ec""))",Chrome 73.0.3683.103,,2019-04-29 21:15:02,2019-04-29 21:15:02,0.003s,NOT_RUN
+"verifyElementPresent(findTestObject(""Object Repository/Test_Scripting/Some_More_Captured_Objects/Page_Gold Grizzly/strong_Search from over 1000 c""), 2)",Chrome 73.0.3683.103,,2019-04-29 21:15:02,2019-04-29 21:15:02,0.046s,PASSED
+"setText(findTestObject(""Object Repository/Test_Scripting/Page_Gold Grizzly/input_Search_q""), ""Life Charger"")",Chrome 73.0.3683.103,,2019-04-29 21:15:02,2019-04-29 21:15:02,0.166s,PASSED
+"click(findTestObject(""Object Repository/Test_Scripting/Page_Gold Grizzly/button_Search""))",Chrome 73.0.3683.103,,2019-04-29 21:15:02,2019-04-29 21:15:05,2.556s,PASSED
+closeBrowser(),Chrome 73.0.3683.103,,2019-04-29 21:15:05,2019-04-29 21:15:06,0.655s,PASSED

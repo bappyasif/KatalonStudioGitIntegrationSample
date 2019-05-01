@@ -1,0 +1,11 @@
+Suite/Test/Step Name,Browser,Description,Start time,End time,Duration,Status
+New Test,Chrome 73.0.3683.103,,2019-04-28 20:47:17,2019-04-28 20:47:33,15.788s,PASSED
+,,,,,,
+Test Cases/ManualMode,Chrome 73.0.3683.103,,2019-04-28 20:47:18,2019-04-28 20:47:33,15.166s,PASSED
+"openBrowser(""https://opensource-demo.orangehrmlive.com/"")",Chrome 73.0.3683.103,,2019-04-28 20:47:19,2019-04-28 20:47:28,8.978s,PASSED
+"setText(findTestObject(""ObRepTestCreation/Page_OrangeHRM/input_LOGIN Panel_txtUsername""), ""Admin"")",Chrome 73.0.3683.103,,2019-04-28 20:47:28,2019-04-28 20:47:28,0.232s,PASSED
+"setText(findTestObject(""ObRepTestCreation/Page_OrangeHRM/input_Username_txtPassword""), ""admin123"")",Chrome 73.0.3683.103,,2019-04-28 20:47:28,2019-04-28 20:47:28,0.186s,PASSED
+"click(findTestObject(""ObRepTestCreation/Page_OrangeHRM/input_Password_Submit""))",Chrome 73.0.3683.103,,2019-04-28 20:47:28,2019-04-28 20:47:30,1.952s,PASSED
+"verifyTextPresent(""Welcome Admin"", false)",Chrome 73.0.3683.103,,2019-04-28 20:47:30,2019-04-28 20:47:30,0.157s,PASSED
+"click(findTestObject(""ObRepTestCreation/Page_OrangeHRM/img""))",Chrome 73.0.3683.103,,2019-04-28 20:47:30,2019-04-28 20:47:32,2.285s,PASSED
+closeBrowser(),Chrome 73.0.3683.103,,2019-04-28 20:47:32,2019-04-28 20:47:33,0.715s,PASSED
