@@ -1,0 +1,136 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Testing TestSuite" time="47" tests="3" failures="0" errors="0">
+   <testsuite name="Testing TestSuite" tests="3" failures="0" errors="0" time="47" timestamp="2019-05-02 20:29:03" hostname="BappY - Toruk-Macto" id="Test Suites/Testing TestSuite">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="C:\\Users\\BappY\\Katalon Studio\\TestFolder\\TestInManualMmode\\Reports\\Testing TestSuite\\20190502_202900"/>
+         <property name="logFiles" value="C:\\Users\\BappY\\Katalon Studio\\TestFolder\\TestInManualMmode\\Reports\\Testing TestSuite\\20190502_202900\\execution0.log"/>
+         <property name="attachments" value="C:\\Users\\BappY\\Katalon Studio\\TestFolder\\Screenshot Saved\\TestCaseScreenShot.png"/>
+         <property name="hostName" value="BappY - Toruk-Macto"/>
+         <property name="os" value="Windows 10 64bit"/>
+         <property name="katalonVersion" value="6.0.4.7"/>
+         <property name="browser" value="Chrome 73.0.3683.103"/>
+         <property name="hostAddress" value="10.244.50.2"/>
+         <property name="sessionId" value="68da016822d96ce2fbb06b04c7a842aa"/>
+         <property name="seleniumVersion" value="3.7.1"/>
+         <property name="proxyInformation" value="ProxyInformation{proxyOption=NO_PROXY, proxyServerType=HTTP, password=, proxyServerAddress=, proxyServerPort=0}"/>
+         <property name="platform" value="Windows 10"/>
+      </properties>
+      <testcase name="Test Cases/Maanual Recording" classname="Test Cases/Maanual Recording" status="PASSED">
+         <system-out><![CDATA[2019-05-02 20:29:03 - [TEST_CASE][PASSED] - Test Cases/Maanual Recording: Test Cases/Maanual Recording
+
+2019-05-02 20:29:04 - [TEST_STEP][PASSED] - openBrowser("https://opensource-demo.orangehrmlive.com/"): Browser is opened with url: 'https://opensource-demo.orangehrmlive.com/'
+
+2019-05-02 20:29:05 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2019-05-02 20:29:06 - [MESSAGE][INFO] - Action delay is set to 0 seconds
+
+2019-05-02 20:29:22 - [MESSAGE][PASSED] - Browser is opened with url: 'https://opensource-demo.orangehrmlive.com/'
+
+2019-05-02 20:29:22 - [TEST_STEP][PASSED] - setText(findTestObject("Test_Manual/Page_OrangeHRM/input_LOGIN Panel_txtUsername"), "Admin"): Text 'Admin' is set on object 'Object Repository/Test_Manual/Page_OrangeHRM/input_LOGIN Panel_txtUsername'
+
+2019-05-02 20:29:22 - [MESSAGE][PASSED] - Text 'Admin' is set on object 'Object Repository/Test_Manual/Page_OrangeHRM/input_LOGIN Panel_txtUsername'
+
+2019-05-02 20:29:22 - [TEST_STEP][PASSED] - setText(findTestObject("Test_Manual/Page_OrangeHRM/input_Username_txtPassword"), "admin123"): Text 'admin123' is set on object 'Object Repository/Test_Manual/Page_OrangeHRM/input_Username_txtPassword'
+
+2019-05-02 20:29:23 - [MESSAGE][PASSED] - Text 'admin123' is set on object 'Object Repository/Test_Manual/Page_OrangeHRM/input_Username_txtPassword'
+
+2019-05-02 20:29:23 - [TEST_STEP][PASSED] - click(findTestObject("Test_Manual/Page_OrangeHRM/input_Password_Submit")): Object: 'Object Repository/Test_Manual/Page_OrangeHRM/input_Password_Submit' is clicked on
+
+2019-05-02 20:29:25 - [MESSAGE][PASSED] - Object: 'Object Repository/Test_Manual/Page_OrangeHRM/input_Password_Submit' is clicked on
+
+2019-05-02 20:29:25 - [TEST_STEP][PASSED] - verifyTextPresent("Welcome Admin", false): Text 'Welcome Admin' is present on page 
+
+2019-05-02 20:29:25 - [MESSAGE][PASSED] - Text 'Welcome Admin' is present on page 
+
+2019-05-02 20:29:25 - [TEST_STEP][PASSED] - verifyTextPresent("Dashboard", false): Text 'Dashboard' is present on page 
+
+2019-05-02 20:29:27 - [MESSAGE][PASSED] - Text 'Dashboard' is present on page 
+
+2019-05-02 20:29:27 - [TEST_STEP][PASSED] - click(findTestObject("Test_Manual/Page_OrangeHRM/Manual Testing Time Sheet/Page_OrangeHRM/img")): Object: 'Object Repository/Test_Manual/Page_OrangeHRM/Manual Testing Time Sheet/Page_OrangeHRM/img' is clicked on
+
+2019-05-02 20:29:28 - [MESSAGE][PASSED] - Object: 'Object Repository/Test_Manual/Page_OrangeHRM/Manual Testing Time Sheet/Page_OrangeHRM/img' is clicked on
+
+2019-05-02 20:29:28 - [TEST_STEP][PASSED] - verifyTextPresent("Timesheet", false, STOP_ON_FAILURE): Text 'Timesheet' is present on page 
+
+2019-05-02 20:29:28 - [MESSAGE][PASSED] - Text 'Timesheet' is present on page 
+
+2019-05-02 20:29:28 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+2019-05-02 20:29:29 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/ManualMode" classname="Test Cases/ManualMode" status="PASSED">
+         <system-out><![CDATA[2019-05-02 20:29:29 - [TEST_CASE][PASSED] - Test Cases/ManualMode: Test Cases/ManualMode
+
+2019-05-02 20:29:29 - [TEST_STEP][PASSED] - openBrowser("https://opensource-demo.orangehrmlive.com/"): Browser is opened with url: 'https://opensource-demo.orangehrmlive.com/'
+
+2019-05-02 20:29:29 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2019-05-02 20:29:35 - [MESSAGE][PASSED] - Browser is opened with url: 'https://opensource-demo.orangehrmlive.com/'
+
+2019-05-02 20:29:35 - [TEST_STEP][PASSED] - setText(findTestObject("ObRepTestCreation/Page_OrangeHRM/input_LOGIN Panel_txtUsername"), "Admin"): Text 'Admin' is set on object 'Object Repository/ObRepTestCreation/Page_OrangeHRM/input_LOGIN Panel_txtUsername'
+
+2019-05-02 20:29:35 - [MESSAGE][PASSED] - Text 'Admin' is set on object 'Object Repository/ObRepTestCreation/Page_OrangeHRM/input_LOGIN Panel_txtUsername'
+
+2019-05-02 20:29:35 - [TEST_STEP][PASSED] - setText(findTestObject("ObRepTestCreation/Page_OrangeHRM/input_Username_txtPassword"), "admin123"): Text 'admin123' is set on object 'Object Repository/ObRepTestCreation/Page_OrangeHRM/input_Username_txtPassword'
+
+2019-05-02 20:29:36 - [MESSAGE][PASSED] - Text 'admin123' is set on object 'Object Repository/ObRepTestCreation/Page_OrangeHRM/input_Username_txtPassword'
+
+2019-05-02 20:29:36 - [TEST_STEP][PASSED] - click(findTestObject("ObRepTestCreation/Page_OrangeHRM/input_Password_Submit")): Object: 'Object Repository/ObRepTestCreation/Page_OrangeHRM/input_Password_Submit' is clicked on
+
+2019-05-02 20:29:37 - [MESSAGE][PASSED] - Object: 'Object Repository/ObRepTestCreation/Page_OrangeHRM/input_Password_Submit' is clicked on
+
+2019-05-02 20:29:37 - [TEST_STEP][PASSED] - verifyTextPresent("Welcome Admin", false): Text 'Welcome Admin' is present on page 
+
+2019-05-02 20:29:37 - [MESSAGE][PASSED] - Text 'Welcome Admin' is present on page 
+
+2019-05-02 20:29:38 - [TEST_STEP][PASSED] - click(findTestObject("ObRepTestCreation/Page_OrangeHRM/img")): Object: 'Object Repository/ObRepTestCreation/Page_OrangeHRM/img' is clicked on
+
+2019-05-02 20:29:39 - [MESSAGE][PASSED] - Object: 'Object Repository/ObRepTestCreation/Page_OrangeHRM/img' is clicked on
+
+2019-05-02 20:29:40 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+2019-05-02 20:29:40 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/ScrpitingMode" classname="Test Cases/ScrpitingMode" status="PASSED">
+         <system-out><![CDATA[2019-05-02 20:29:40 - [TEST_CASE][PASSED] - Test Cases/ScrpitingMode: Test Cases/ScrpitingMode
+
+2019-05-02 20:29:40 - [TEST_STEP][PASSED] - openBrowser("https://goldgrizzly.com/"): Browser is opened with url: 'https://goldgrizzly.com/'
+
+2019-05-02 20:29:40 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2019-05-02 20:29:47 - [MESSAGE][PASSED] - Browser is opened with url: 'https://goldgrizzly.com/'
+
+2019-05-02 20:29:47 - [TEST_STEP][NOT_RUN] - click(findTestObject("Object Repository/Test_Scripting/Some_More_Captured_Objects/Page_Gold Grizzly/h2_A Rapidly Growing Online Ec")): NOT_RUN: click(findTestObject("Object Repository/Test_Scripting/Some_More_Captured_Objects/Page_Gold Grizzly/h2_A Rapidly Growing Online Ec"))
+
+2019-05-02 20:29:47 - [MESSAGE][NOT_RUN] - NOT_RUN: click(findTestObject("Object Repository/Test_Scripting/Some_More_Captured_Objects/Page_Gold Grizzly/h2_A Rapidly Growing Online Ec"))
+
+2019-05-02 20:29:47 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Object Repository/Test_Scripting/Some_More_Captured_Objects/Page_Gold Grizzly/strong_Search from over 1000 c"), 2): Object 'Object Repository/Test_Scripting/Some_More_Captured_Objects/Page_Gold Grizzly/strong_Search from over 1000 c' is present
+
+2019-05-02 20:29:47 - [MESSAGE][PASSED] - Object 'Object Repository/Test_Scripting/Some_More_Captured_Objects/Page_Gold Grizzly/strong_Search from over 1000 c' is present
+
+2019-05-02 20:29:47 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Test_Scripting/Page_Gold Grizzly/input_Search_q"), "Life Charger"): Text 'Life Charger' is set on object 'Object Repository/Test_Scripting/Page_Gold Grizzly/input_Search_q'
+
+2019-05-02 20:29:47 - [MESSAGE][PASSED] - Text 'Life Charger' is set on object 'Object Repository/Test_Scripting/Page_Gold Grizzly/input_Search_q'
+
+2019-05-02 20:29:47 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Test_Scripting/Page_Gold Grizzly/button_Search")): Object: 'Object Repository/Test_Scripting/Page_Gold Grizzly/button_Search' is clicked on
+
+2019-05-02 20:29:49 - [MESSAGE][PASSED] - Object: 'Object Repository/Test_Scripting/Page_Gold Grizzly/button_Search' is clicked on
+
+2019-05-02 20:29:49 - [TEST_STEP][PASSED] - takeScreenshot("C:\Users\BappY\Katalon Studio\TestFolder\Screenshot Saved\TestCaseScreenShot.png"): Taking screenshot successfully
+
+2019-05-02 20:29:49 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|C:\\Users\\BappY\\Katalon Studio\\TestFolder\\Screenshot Saved\\TestCaseScreenShot.png]]
+
+2019-05-02 20:29:49 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+2019-05-02 20:29:50 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2019-05-02 20:29:03 - [TEST_SUITE][PASSED] - Testing TestSuite: Test Cases/ScrpitingMode]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>
