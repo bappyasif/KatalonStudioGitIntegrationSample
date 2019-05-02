@@ -17,3 +17,4 @@ WebUI.openBrowser('https://goldgrizzly.com/', FailureHandling.STOP_ON_FAILURE)
 
 WebUI.closeBrowser()
 
+

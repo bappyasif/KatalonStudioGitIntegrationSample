@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Testing Suite For Jenkins" time="30" tests="1" failures="0" errors="0">
+   <testsuite name="Testing Suite For Jenkins" tests="1" failures="0" errors="0" time="30" timestamp="2019-05-02 21:54:45" hostname="BappY - Toruk-Macto" id="Test Suites/Testing Suite For Jenkins">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="C:\\Users\\BappY\\Katalon Studio\\TestFolder\\TestInManualMmode\\Reports\\Testing Suite For Jenkins\\20190502_215443"/>
+         <property name="logFiles" value="C:\\Users\\BappY\\Katalon Studio\\TestFolder\\TestInManualMmode\\Reports\\Testing Suite For Jenkins\\20190502_215443\\execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="BappY - Toruk-Macto"/>
+         <property name="os" value="Windows 10 64bit"/>
+         <property name="katalonVersion" value="6.0.4.7"/>
+         <property name="browser" value="Chrome 73.0.3683.103"/>
+         <property name="hostAddress" value="10.244.50.2"/>
+         <property name="sessionId" value="c307a9f0b770cdceb3f519efc27e0f86"/>
+         <property name="seleniumVersion" value="3.7.1"/>
+         <property name="proxyInformation" value="ProxyInformation{proxyOption=NO_PROXY, proxyServerType=HTTP, password=, proxyServerAddress=, proxyServerPort=0}"/>
+         <property name="platform" value="Windows 10"/>
+      </properties>
+      <testcase name="Test Cases/Fake Sample" classname="Test Cases/Fake Sample" status="PASSED">
+         <system-out><![CDATA[2019-05-02 21:54:45 - [TEST_CASE][PASSED] - Test Cases/Fake Sample: Test Cases/Fake Sample
+
+2019-05-02 21:54:46 - [TEST_STEP][PASSED] - openBrowser("https://goldgrizzly.com/", STOP_ON_FAILURE): Browser is opened with url: 'https://goldgrizzly.com/'
+
+2019-05-02 21:54:46 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2019-05-02 21:54:46 - [MESSAGE][INFO] - Action delay is set to 0 seconds
+
+2019-05-02 21:55:15 - [MESSAGE][PASSED] - Browser is opened with url: 'https://goldgrizzly.com/'
+
+2019-05-02 21:55:15 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+2019-05-02 21:55:16 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2019-05-02 21:54:45 - [TEST_SUITE][PASSED] - Testing Suite For Jenkins: Test Cases/Fake Sample]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>
