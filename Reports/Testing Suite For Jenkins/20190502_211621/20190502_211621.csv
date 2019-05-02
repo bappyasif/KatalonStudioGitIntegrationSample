@@ -1,0 +1,6 @@
+Suite/Test/Step Name,Browser,Description,Start time,End time,Duration,Status
+Testing Suite For Jenkins,Chrome 73.0.3683.103,Just Trynig Jenkins Git Integration Test from CMD.,2019-05-02 21:16:23,2019-05-02 21:16:33,9.699s,PASSED
+,,,,,,
+Test Cases/Fake Sample,Chrome 73.0.3683.103,Just Demonstarting  Next Commit In remote Depo. thats all.,2019-05-02 21:16:24,2019-05-02 21:16:33,9.345s,PASSED
+"openBrowser(""https://goldgrizzly.com/"", STOP_ON_FAILURE)",Chrome 73.0.3683.103,,2019-05-02 21:16:24,2019-05-02 21:16:32,8.118s,PASSED
+closeBrowser(),Chrome 73.0.3683.103,,2019-05-02 21:16:32,2019-05-02 21:16:33,0.738s,PASSED
